@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: blueviolet;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.container h1 {
+  color: rgb(241, 121, 0);
+}
+.editor {
+  width: 100%;
+  min-height: 30rem;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  padding: 1rem;
+  background-color: rgb(167, 86, 243);
+  font-size: larger;
+  border-radius: 5px 5px 0 0;
+}
+textarea {
+  outline: none;
+  flex-grow: 1;
+  padding: 2rem;
+}
+.preview {
+  width: 100%;
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#preview {
+  padding: 1rem;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-x: hidden;
+  background-color: bisque;
+}
+img {
+  height: 5rem;
+}
